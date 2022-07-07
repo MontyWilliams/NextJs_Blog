@@ -1,5 +1,5 @@
 import Head from 'next/head'
-// import styles from '../styles/header_styles.module.css';
+import Articles from '../components/Articles'
 
 export default function Home({articles}) {
   console.log(articles)
@@ -9,13 +9,7 @@ export default function Home({articles}) {
         <title>Yea Yea</title>
         <meta name='keywords' content='web development, programming'/>
       </Head>
-      {articles.map(article =>
-        <div>
-          <h3>{article.title}</h3>
-          <img src={article.thumbnailUrl} alt="pic" />
-        </div> 
-      )
-    }
+      <Articles articles={articles} />
     </div>
   )
 }
