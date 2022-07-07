@@ -9,16 +9,7 @@ const Header =() => {
       <p className={headerStyles.description}>
         You Already know, Dont even trip. Yeah
       </p>
-      <p className={yea}>
-        You Already know, Dont even trip. Yeah
-      </p>
-      <style jsx>
-        {`
-        .yes {
-          color: green;
-        }
-        `}
-      </style>
+     
     </div>
 
   )
