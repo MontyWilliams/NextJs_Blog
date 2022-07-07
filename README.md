@@ -46,3 +46,9 @@ import Head from 'next/head'
 nexdt head alooss you to place a tag and description wich will we findable via search engines
 
 This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+
+# Fetching data
+making requests comes out of the box with next js. U can simply make a function that makes arequest and add it above or below the component of the index page. Once the data is returned it can be passed into component as props
+
+# Next Router 
+next router allows destructuring of any obj thats passes through it buy using the .query method on whatever is passed through it.
