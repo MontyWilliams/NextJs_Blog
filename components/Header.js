@@ -9,12 +9,12 @@ const Header =() => {
       <p className={headerStyles.description}>
         You Already know, Dont even trip. Yeah
       </p>
-      <p className={yea}>
+      <p className="yea">
         You Already know, Dont even trip. Yeah
       </p>
       <style jsx>
         {`
-        .yes {
+        .yea {
           color: green;
         }
         `}

@@ -1,6 +1,10 @@
 # Next js Tutorial
 from video tutorial by traversy media https://www.youtube.com/watch?v=mTz0GXj8NN0
 
+# Whats cool is ...
+Next js handles page routing in a cool way and you can pass components and props to each page respectivly so you can easily make a consistant design.
+you dont have to import react into each page, it works with the bundler somehow (I guess)
+
 ## Naming conventions
 generally components are inn Upper case while pages are lower
 
@@ -36,8 +40,6 @@ const Layout = () => {
   )
 }
 ```
-
-
 
 ## Next/head
 ```
