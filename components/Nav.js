@@ -1,12 +1,12 @@
 import navStyles from '../styles/nav_styles.module.css';
-import Link from 'next/Link'
+import Link from 'next/link'
 
-export default const Nav() => {
+const Nav = () => {
   return (
     <nav className={navStyles.nav}>
       <ul>
         <li>
-          <Link href="/">Home</Link>
+        <Link href="/">Home</Link>
         </li>
         <li>
           <Link href="/about">About</Link>
@@ -15,3 +15,5 @@ export default const Nav() => {
     </nav>
     )
 }
+
+export default Nav
